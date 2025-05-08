@@ -10,7 +10,7 @@ def test_login():
   driver.get("https://editor-staging.storydoc.com/login")
 
   login_page = LoginPage(driver)
-  login_page.enter_username("team@qa.com")
+  login_page.enter_username("team@qat.com")
   login_page.enter_password("team_account")
   login_page.click_submit()
 
